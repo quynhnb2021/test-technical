@@ -14,7 +14,7 @@ const AppBarComponent = () => {
                 icon="arrow-left"
                 onPress={() => navigation.pop()}
             />
-            <Text style={{ flex: 1, textAlign: 'center', alignSelf: 'center', fontWeight: 'bold', fontSize: 24 }}> Title</Text>
+            <Text style={{ flex: 1, textAlign: 'center', alignSelf: 'center', fontWeight: 'bold', fontSize: 24, color: 'black' }}>Panda</Text>
 
             <Appbar.Action
                 icon="mail"
