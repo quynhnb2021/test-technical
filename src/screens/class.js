@@ -34,7 +34,7 @@ const Item = ({ title }) => (
 const ItemStudent = ({ title, image, number }) => (
     <View style={styles.styleStudent} >
         <Image source={image} style={{ width: 40, height: 40 }} />
-        <Text style={{ marginTop: 8, alignSelf: 'center', fontWeight: 'bold' }} >{title}</Text>
+        <Text style={{ marginTop: 8, alignSelf: 'center', fontWeight: 'bold', color: 'black' }} >{title}</Text>
         <View style={{ position: "absolute", right: 5, top: 10, backgroundColor: '#83DB23', borderRadius: 14, width: 28, height: 28, justifyContent: 'center', alignItems: 'center' }}>
             <Text style={{ color: 'white' }}>{number}</Text>
         </View>
